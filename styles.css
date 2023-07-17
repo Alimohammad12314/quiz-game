@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@500;900&display=swap');
+
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+h2{
+    padding: 3px;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+.row{
+    padding: 7px;
+    font-size: large;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    width: 37%;
+    height: 30%;
+    border:5px solid white;
+    border-radius: 3%;
+}
+
+.btn{
+    font-size: large;
+    width:100%;
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    height: 45px;
+    cursor: pointer;;
+    
+}
+.btn:hover{
+    opacity: 0.9;
+   
+}
